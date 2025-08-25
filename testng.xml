@@ -1,0 +1,18 @@
+<suite name="my Demo testNg suite">
+<test name="Sample tests">
+	<groups>
+	<run>
+	<include name="Regression"/>
+	</run>
+</groups>
+
+	<classes>
+		<class name="sampleOne.Class01"/>
+	
+		<class name="sampleOne.Class02"/>
+		<class name="sampleTwo.Class03"/>
+		<class name="sampleTwo.Class04"/>
+	</classes>
+</test>
+
+</suite>
